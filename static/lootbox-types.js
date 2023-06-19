@@ -1,0 +1,16 @@
+const LOOTBOX_GOLD = 'Gold'
+const LOOTBOX_SILVER = 'Silver'
+const LOOTBOX_BRONZE = 'Bronze'
+
+const LOOTBOX_ALL = [
+  LOOTBOX_GOLD,
+  LOOTBOX_SILVER,
+  LOOTBOX_BRONZE
+]
+
+module.exports = {
+  LOOTBOX_GOLD,
+  LOOTBOX_SILVER,
+  LOOTBOX_BRONZE,
+  LOOTBOX_ALL,
+}

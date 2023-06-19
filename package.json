@@ -1,0 +1,46 @@
+{
+  "name": "cosmic_ape_crusaders",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "seed": "npx sequelize-cli db:seed:all",
+    "migrate": "npx sequelize-cli db:migrate",
+    "start": "node server.js",
+    "serve": "npm run migrate && npm run seed && npm run start",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@nfteyez/sol-rayz": "^0.10.2",
+    "@solana/web3.js": "^1.66.2",
+    "axios": "^0.26.1",
+    "base58-js": "^1.0.0",
+    "body-parser": "^1.20.0",
+    "bs58": "^5.0.0",
+    "compression": "^1.7.4",
+    "cors": "^2.8.5",
+    "csvtojson": "^2.0.10",
+    "express": "^4.17.3",
+    "express-validator": "^6.14.0",
+    "expressjs.routes.autoload": "^0.2.0",
+    "http-status": "^1.5.3",
+    "ioredis": "^5.0.5",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.29.2",
+    "morgan": "^1.10.0",
+    "mysql2": "^2.3.3",
+    "pg": "^8.7.3",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.18.0",
+    "tweetnacl": "^1.0.3",
+    "uuid4": "^2.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16",
+    "sequelize-cli": "^6.4.1"
+  }
+}

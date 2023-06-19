@@ -1,0 +1,45 @@
+version: '3.3'
+services:
+    db:
+        container_name: cosmic_ape_db
+        platform: linux/x86_64
+        image: mysql:8.0.27
+        restart: always
+        environment:
+            MYSQL_DATABASE: 'cosmic_apes'
+            MYSQL_USER: 'my_sql_user'
+            MYSQL_PASSWORD: 'Password123'
+            MYSQL_ROOT_PASSWORD: 'Password123'
+        volumes:
+            - cosmic_ape_db:/var/lib/mysql
+        ports:
+            - '3306:3306'
+        expose:
+            - '3306'
+        security_opt:
+            - seccomp:unconfined
+    app:
+        build:
+            context: .
+
+        environment:
+            - DB_USERNAME=root
+            - DB_PASSWORD=Password123
+            - DB_HOST=db
+            - DB_NAME=cosmic_apes
+            - NODE_ENV=docker
+            - REDIS_HOST=redis
+            - REDIS_PORT=6379
+            - MAGIC_EDEN_HOST=
+        ports:
+            -   '8080:8080'
+
+    redis:
+        image: redis:6.2-alpine
+        ports:
+            - 6379:6379
+
+
+
+volumes:
+    cosmic_ape_db: {}

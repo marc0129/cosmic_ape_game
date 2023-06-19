@@ -1,0 +1,8 @@
+module.exports = `Mission Tier,Character Tier 1,Character Tier 2,Character Tier 3,Character Tier 4,Character Tier 5,Character Tier 6
+1,1,0.9,0.8,0.7,0.6,0.5
+2,3,1,0.9,0.8,0.7,0.6
+3,6,3,1,0.9,0.8,0.7
+4,9,6,3,1,0.9,0.8
+5,12,9,6,3,1,0.9
+6,15,12,9,6,3,1
+`

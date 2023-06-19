@@ -1,0 +1,102 @@
+[
+  {
+    "tier": 2,
+    "materials": [
+      {
+        "name": "Gold",
+        "type": "Currency",
+        "amount": 15000
+      },
+      {
+        "name": "Cosmic",
+        "type": "Currency",
+        "amount": 200
+      },
+      {
+        "name": "Cosmic Evolution Stones",
+        "type": "Resource",
+        "amount": 2
+      }
+    ]
+  },
+  {
+    "tier": 3,
+    "materials": [
+      {
+        "name": "Gold",
+        "type": "Currency",
+        "amount": 25000
+      },
+      {
+        "name": "Cosmic",
+        "type": "Currency",
+        "amount": 300
+      },
+      {
+        "name": "Cosmic Evolution Shards",
+        "type": "Resource",
+        "amount": 4
+      }
+    ]
+  },
+  {
+    "tier": 4,
+    "materials": [
+      {
+        "name": "Gold",
+        "type": "Currency",
+        "amount": 50000
+      },
+      {
+        "name": "Cosmic",
+        "type": "Currency",
+        "amount": 400
+      },
+      {
+        "name": "Cosmic Evolution Chunks",
+        "type": "Resource",
+        "amount": 4
+      }
+    ]
+  },
+  {
+    "tier": 5,
+    "materials": [
+      {
+        "name": "Gold",
+        "type": "Currency",
+        "amount": 100000
+      },
+      {
+        "name": "Cosmic",
+        "type": "Currency",
+        "amount": 500
+      },
+      {
+        "name": "Cosmic Evolution Chunks",
+        "type": "Resource",
+        "amount": 8
+      }
+    ]
+  },
+  {
+    "tier": 6,
+    "materials": [
+      {
+        "name": "Gold",
+        "type": "Currency",
+        "amount": 250000
+      },
+      {
+        "name": "Cosmic",
+        "type": "Currency",
+        "amount": 600
+      },
+      {
+        "name": "Cosmic Evolution Gems",
+        "type": "Resource",
+        "amount": 4
+      }
+    ]
+  }
+]
